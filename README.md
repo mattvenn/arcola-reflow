@@ -1,5 +1,11 @@
 # Arcola Energy reflow toaster oven
 
+## Use
+
+* Plug in oven and mains
+* Ensure temperature sensor is attached to a place near the boards
+* Press big green button
+
 ## Firmware
 
 Adapted from work by Adrian Bowyer : http://reprap.org/wiki/Toaster_Oven_Reflow_Technique#Firmware
@@ -7,11 +13,12 @@ Adapted from work by Adrian Bowyer : http://reprap.org/wiki/Toaster_Oven_Reflow_
 ## Solder paste
 
 From farnell, part 149968
+
 ## BOM
 
-* [temp sense](http://www.seeedstudio.com/wiki/Grove_-_High_Temperature_Sensor)
+* [temperature sensor and amplifier](http://www.seeedstudio.com/wiki/Grove_-_High_Temperature_Sensor)
 
-Following are all from farnell
+Following are all from farnell:
 
 * SSR: 120028
 * box 1526657
