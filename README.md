@@ -29,13 +29,13 @@ Following are all from farnell:
 * IEC inlet 313737
 * mains socket 987190
 
-## Pictures
+## Internal Pictures
 
-\[base](pics/base.jpg)
+![base](pics/base.jpg)
 
 from left: SSR, PSU, arduino clone (shrimp) and temperature sensor amplifier
 
-\[top](pics/top.jpg)
+![lid](pics/lid.jpg)
 
 from left: mains plug, lcd, IEC inlet, button and temperature sensor 
 
