@@ -10,12 +10,17 @@
 
 ## Firmware
 
-Adapted from work by [Adrian Bowyer](http://reprap.org/wiki/Toaster_Oven_Reflow_Technique#Firmware). 
+[Firmware](firmware/reflow/reflow.ino) adapted from work by [Adrian Bowyer](http://reprap.org/wiki/Toaster_Oven_Reflow_Technique#Firmware). 
+
 Microcontroller is Atmel mega328 with Arduino Uno bootloader.
 
 ## Solder paste
 
 From farnell, part 149968
+
+## CAD
+
+[CAD files](cad) for the base plate and lid.
 
 ## BOM
 
