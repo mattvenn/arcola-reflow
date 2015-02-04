@@ -4,27 +4,51 @@
 
 ## Use
 
+### Software setup on Arlan's mac
+
+Followed [these instructions](http://www.idleloop.com/robotics/cutter/)
+
+* installed cream-dxf.ulp, and exported eagle board file top cream to dxf
+* change silhouette settings to leave dxf instead of scale to fit
+
+### Cutting
+
+* blade settingon silhouette was #2
+* open the dxf in silhouette and cut the vinyl 
+* 70 micron vinyl was [ordered](http://www.ebay.co.uk/itm/191422915226) from
+[thevinylwarehouse](http://www.ebay.co.uk/usr/thevinylwarehouse) from ebay
+
+### Apply solder paste
+
+* Paste from farnell part 149968
+* Align sticker carefully! Can be moved if necessary
+* Use small amount of paste
+* Use a credit card to squeeze paste through holes, drag don't push
+
+### Place components
+
+* Place components, accuracy is good but the process is tolerant to slight
+ placement errors
+
+### Cooking!
+
 * Plug in oven and mains. Ensure oven is no more than 900W
 * Ensure temperature sensor is attached to a place near the boards
 * Press big green button
 
-Check the [howto on the bristol hackspace wiki for instructions on reflow](http://bristol.hackspace.org.uk/wiki/doku.php?id=making_stencils_in_the_hackspace_using_the_vinyl_cutter) 
+## Inside the box
 
-## Firmware
+### Firmware
 
 [Firmware](firmware/reflow/reflow.ino) adapted from work by [Adrian Bowyer](http://reprap.org/wiki/Toaster_Oven_Reflow_Technique#Firmware). 
 
 Microcontroller is Atmel mega328 with Arduino Uno bootloader.
 
-## Solder paste
-
-From farnell, part 149968
-
-## CAD
+### CAD
 
 [CAD files](cad) for the base plate and lid.
 
-## BOM
+### BOM
 
 * [temperature sensor and amplifier](http://www.seeedstudio.com/wiki/Grove_-_High_Temperature_Sensor)
 
@@ -36,7 +60,7 @@ Following are all from farnell:
 * IEC inlet 313737
 * mains socket 987190
 
-## Internal Pictures
+### Internal Pictures
 
 ![base](pics/base.jpg)
 
