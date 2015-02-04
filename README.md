@@ -8,6 +8,8 @@
 * Ensure temperature sensor is attached to a place near the boards
 * Press big green button
 
+Check the [howto on the bristol hackspace wiki for instructions on reflow](http://bristol.hackspace.org.uk/wiki/doku.php?id=making_stencils_in_the_hackspace_using_the_vinyl_cutter) 
+
 ## Firmware
 
 [Firmware](firmware/reflow/reflow.ino) adapted from work by [Adrian Bowyer](http://reprap.org/wiki/Toaster_Oven_Reflow_Technique#Firmware). 
